@@ -7,6 +7,9 @@ namespace csharp8
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var t = new MainDemoItems();
+            t.Test();
         }
     }
 }
