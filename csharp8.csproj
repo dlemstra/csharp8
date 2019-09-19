@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <StartupObject>csharp8.Program</StartupObject>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

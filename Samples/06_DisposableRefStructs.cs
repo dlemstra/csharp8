@@ -12,7 +12,7 @@ public partial class Tester
 
 struct SomeInterface 
 {
-    int SomeNumber { get;set }
+    int SomeNumber { get; set; }
     StreamWriter stream { get; set; }
 
  

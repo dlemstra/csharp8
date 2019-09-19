@@ -8,6 +8,8 @@
             tester.TestOne();
 
             tester.TestTwo();
+
+            tester.TestSeven();
         }
     }
 }
