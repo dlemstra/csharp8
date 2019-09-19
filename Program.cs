@@ -6,10 +6,10 @@ namespace csharp8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Tester tester = new Tester();
+            tester.TestOne();
 
-            var t = new MainDemoItems();
-            t.Test();
+            tester.TestTwo();
         }
     }
 }
