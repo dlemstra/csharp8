@@ -6,23 +6,28 @@ namespace csharp8
 {
     class MainDemoItems
     {
-        private int[] numbers = { 1, 2, 3, 4, 5 };
 
         public void Test()
         {
-            var sub = numbers[2..^-2];
-            foreach (var x in sub)
-                Console.WriteLine(x);        }
+            using CustomerData c = default(CustomerData);
+           
+
+            c.Id = 42;
+
+            
+        }
+        
+
+
+
     }
 
-    struct MyCustomer
+    ref struct CustomerData 
     {
-        public  int _someNumber { get { return _someNumber * 2; } }
-        public readonly int SomeNumber { get => _someNumber;  }
-
-        public readonly override string ToString()
+        public int Id { get; set; }
+        public void Dispose()
         {
-            return $"{_someNumber}";
+        Console.WriteLine("Disposing...");
         }
     }
 }
