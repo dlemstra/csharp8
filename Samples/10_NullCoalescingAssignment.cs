@@ -1,1 +1,4 @@
-﻿
+﻿public partial class Tester
+{
+
+}
