@@ -14,7 +14,7 @@ public partial class Tester
         object? nullObject = null;
 
         //if(nullObject != null) { }
-  
+
 
 
 
@@ -22,7 +22,7 @@ public partial class Tester
         #region The wrong way to do null checks...
         MyObject stupid = null;
 
-        if(stupid != null)
+        if (stupid != null)
         {
             stupid.Id = 42;
         }
@@ -30,7 +30,7 @@ public partial class Tester
 
         #region The right way to do it
 
-        if(stupid is object)
+        if (stupid is object)
         {
             stupid.Id = 42;
         }
@@ -40,8 +40,8 @@ public partial class Tester
         }
         #endregion
 
-     
-       
+
+
     }
 
 }
@@ -54,12 +54,12 @@ public class MyObject
 
     public int Id { get; set; }
     #region Operators
-    public static bool operator == (MyObject o1, object o2)
+    public static bool operator ==(MyObject o1, object o2)
     {
         return false;
     }
 
-    public static bool operator != (MyObject o1, object o2)
+    public static bool operator !=(MyObject o1, object o2)
     {
         return true;
     }
