@@ -1,5 +1,6 @@
-﻿public partial class Tester {
-    
+﻿public partial class Tester
+{
+
     public void TestTwo()
     {
         ICustomer c = new Customer();

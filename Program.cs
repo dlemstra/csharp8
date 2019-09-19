@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace csharp8
+﻿namespace csharp8
 {
     class Program
     {
