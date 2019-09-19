@@ -139,6 +139,6 @@ public enum Hue
 {
     Light,
     Medium,
-    Dark;
+    Dark
 }
 
