@@ -12,7 +12,7 @@ namespace csharp8
             //tester.TestTwo();
 
             //tester.TestSeven();
-            tester.TestNine();
+            tester.TestTwelve();
 
 
             Console.WriteLine("All done...");
