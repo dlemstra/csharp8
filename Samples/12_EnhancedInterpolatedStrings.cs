@@ -15,8 +15,8 @@ public partial class Tester
         var s4 = $@"Hello \ {s2}";
 
         Console.WriteLine(s1);
-        Console.WriteLine(s2); 
-            Console.WriteLine(s3); 
-            Console.WriteLine(s4); 
+        Console.WriteLine(s2);
+        Console.WriteLine(s3);
+        Console.WriteLine(s4);
     }
 }

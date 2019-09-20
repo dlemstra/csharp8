@@ -9,15 +9,10 @@ public partial class Tester
 
         nullBool = true;
 
-
         // Enable or disable this feature by setting <Nullable>enable</Nullabble> in .csproj PropertyGroup!
         object? nullObject = null;
 
         //if(nullObject != null) { }
-
-
-
-
 
         #region The wrong way to do null checks...
         MyObject stupid = null;
@@ -39,8 +34,6 @@ public partial class Tester
             Console.WriteLine("It's null, silly!");
         }
         #endregion
-
-
 
     }
 

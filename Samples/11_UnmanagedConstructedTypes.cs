@@ -10,8 +10,6 @@ public partial class Tester
             new Coords<int> { X = 1, Y = 0 },
             new Coords<int> { X = 0, Y = 1 }
         };
-
-
     }
 }
 

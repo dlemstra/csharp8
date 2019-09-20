@@ -11,7 +11,7 @@ public partial class Tester
             Console.WriteLine(number);
         }
 
-        // By default implemented in 
+        // By default implemented in StreamWriter and others
     }
 
     public async IAsyncEnumerable<int> GenerateSequence()
