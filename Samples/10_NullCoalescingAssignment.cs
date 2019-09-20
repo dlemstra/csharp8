@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public partial class Tester
 {
-    public void TestTen()
+    public void TestNullCoalescingAssignemt()
     {
         List<int> numbers = null;
         int? i = null;

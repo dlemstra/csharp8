@@ -3,7 +3,7 @@
 public partial class Tester
 {
 
-    public void TestSix()
+    public void TestDisposableRefStructs()
     {
 
     }

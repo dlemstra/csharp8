@@ -1,7 +1,7 @@
 ﻿public partial class Tester
 {
 
-    public void TestTwo()
+    public void TestDefaultInterfaceMembers()
     {
         ICustomer c = new Customer();
         c.CustomerId = 42;

@@ -2,7 +2,7 @@
 
 public partial class Tester
 {
-    public void TestFour()
+    public void TestUsingDeclarations()
     {
 
         #region Old Style

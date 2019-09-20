@@ -2,7 +2,7 @@
 
 public partial class Tester
 {
-    public void TestSeven()
+    public void TestNullableReferenceTypes()
     {
 
         bool? nullBool = null;

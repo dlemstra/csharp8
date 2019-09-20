@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 public partial class Tester
 {
-    public async void TestEight()
+    public async void TestAsynchronousStreams()
     {
         await foreach (var number in GenerateSequence())
         {

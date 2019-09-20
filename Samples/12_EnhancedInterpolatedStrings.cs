@@ -2,7 +2,7 @@
 
 public partial class Tester
 {
-    public void TestTwelve()
+    public void TestEnhancedInterpolatedStrings()
     {
         //var s0 = "hallo\";
 

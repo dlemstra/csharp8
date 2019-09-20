@@ -2,7 +2,7 @@
 
 public partial class Tester
 {
-    public void TestEleven()
+    public void TestUnmanagedConstructedTypes()
     {
         Span<Coords<int>> coordinates = stackalloc[]
         {

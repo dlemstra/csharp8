@@ -2,7 +2,7 @@
 
 public partial class Tester
 {
-    public void TestOne()
+    public void TestReadOnlyMember()
     {
         var l1 = new Line();
         l1.X1 = 1.0;

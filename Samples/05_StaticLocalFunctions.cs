@@ -1,6 +1,6 @@
 ﻿public partial class Tester
 {
-    public void TestFive()
+    public void TestStaticLocalFunctions()
     {
 
         var a = 1;

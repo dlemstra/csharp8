@@ -3,7 +3,7 @@
 public partial class Tester
 {
 
-    public RgbColor TestThree()
+    public RgbColor TestPatterns()
     {
         Rainbow redColor = Rainbow.Red;
         RgbColor result;
