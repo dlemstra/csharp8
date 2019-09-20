@@ -2,8 +2,12 @@
 
 public partial class Tester
 {
+    public void TestPatterns()
+    {
+        var result = DoTheWork();
+    }
 
-    public RgbColor TestPatterns()
+    public RgbColor DoTheWork()
     {
         Rainbow redColor = Rainbow.Red;
         RgbColor result;
