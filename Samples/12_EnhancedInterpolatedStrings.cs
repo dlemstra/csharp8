@@ -12,7 +12,7 @@ public partial class Tester
 
         var s3 = $@"Hello \ {s2}";
 
-        var s4 = $@"Hello \ {s2}";
+        var s4 = @$"Hello \ {s2}";
 
         Console.WriteLine(s1);
         Console.WriteLine(s2);
